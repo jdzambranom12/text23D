@@ -31,7 +31,7 @@ function draw() {
 }
 
 async function getPostCount() {
-    const endpoint = 'https://public-api.wordpress.com/rest/v1.1/sites/misterarroyososa.wordpress.com/posts?tag=objeto';
+    const endpoint = 'https://public-api.wordpress.com/rest/v1.1/sites/micolecciondejuguetes.wordpress.com/posts?tag=juguete';
     try {
         const response = await fetch(endpoint);
         const data = await response.json();
